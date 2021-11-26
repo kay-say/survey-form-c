@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/style.css">
+    <title>survey-form-c</title>
+</head>
+<body>
+    <div class="container flex">
+        <form>
+            <h1>contact us</h1>
+
+            <div class="wrapper">
+                <label for="name">full name*</label>
+                <input class="box" type="text" name="name" id="name" placeholder="enter your name">
+            </div>
+            
+
+            <div class="email-phone-wrapper">
+                <div class="wrapper">
+                    <label for="email">email*</label>
+                    <input class="box" type="email" name="email" id="email" placeholder="email">
+                </div>     
+                <div class="wrapper">
+                    <label for="phone">phone</label>
+                    <input class="box" type="number" name="phone" id="phone" placeholder="phone">            
+                </div>          
+            </div>
+
+            <div class="wrapper">
+                <label for="cars">needed services</label>
+                <select class="box" name="cars" id="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="opel">Opel</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            
+            <div class="wrapper">
+                <label for="message">message</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="your message here..."></textarea>
+            </div>
+
+            <button>
+                <p>submit --></p> 
+            </button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
