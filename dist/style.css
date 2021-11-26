@@ -102,6 +102,10 @@ form .email-phone-wrapper .wrapper {
   width: 48%;
 }
 
+form select {
+  height: 70px;
+}
+
 form textarea {
   width: 100%;
   -webkit-box-shadow: 1px 1px 3px #999;
